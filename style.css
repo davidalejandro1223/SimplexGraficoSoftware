@@ -1,0 +1,14 @@
+body{
+	background: #DBCFB0;
+}
+
+.container{
+	text-align: center;
+	background: #636564;
+	border-radius: 15px;
+	padding: 10px;
+}
+
+table{
+	margin: 0 auto;
+}

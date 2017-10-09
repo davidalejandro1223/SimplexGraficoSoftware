@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Metodo Simplex</title>
+		<script type="text/javascript" src="script.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div class="container">
+			<form id="form1" name="form1" method="post" action="">
+				<p><strong>Método Simplex JavaScript<br/>
+				<!--<hr/>-->
+				<p>
+				Variables de decisión:
+				<label for="nd"></label>
+				<input name="nd" type="num" id="nd" value="0" onClick="this.select();" required="required"/><br><br>
+				Restricciones:
+				<label for="nr"></label>
+				<input name="nr" type="number" id="nr" value="0" onClick="this.select();" required="required"/><br><br>
+				<label for="objetivo">Objetivo: </label>
+				<select name="objetivo" id="objetivo">
+					<option value="max">Maximizar</option>
+					<option value="min">Minimizar</option>
+				</select><br><br>
+				<input type="button" name="button" id="button" value="OK" onclick="generaMatrizInputs()" />
+				</p>
+				<!--<hr/>-->
+				<div id="fo"></div>
+				<div id="matriz"></div>
+				<div id="ceros"></div>
+				<div id="tabla"></div>
+			</form>
+		</div>
+	</body>
+</html>
